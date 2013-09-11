@@ -14,5 +14,7 @@ Resources
 License
 =====================
 MIT Licensed. Please link back when you use.
+Author: Webbu
+Author URL: http://themeforest.net/user/Webbu
 
 
