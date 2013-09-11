@@ -1,11 +1,11 @@
 <?php
 /*
 	Plugin Name: WMF Mobile Redirector
-	Plugin URI: http://www.webbudesign.com
+	Plugin URI: http://themeforest.net/user/Webbu
 	Description: A mobile device redirection plugin by Webbu.
 	Version: 1.0.0
 	Author: Webbu
-	Author URI: http://www.webbudesign.com
+	Author URI: http://themeforest.net/user/Webbu
 */
 
 //Define directories.
