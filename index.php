@@ -13,10 +13,18 @@ define("WER_THEME_URL", plugin_dir_url( __FILE__ ));
 define("WER_PLUGIN_CSS_URL",WER_THEME_URL."css/");
 define("WER_PLUGIN_JS_URL",WER_THEME_URL."js/");
 define("WER_PLUGIN_IMAGE_URL",WER_THEME_URL."images/");
+define("WER_PLUGIN_LANG_URL",WER_THEME_URL."languages/");
 
 // Files
 include 'includes/options-page.php'; 
 require_once 'includes/mobile-detect.php';
+
+//Localization
+function wmf_remobile_translate() {
+  load_plugin_textdomain( 'wmfrt2d', false, WER_PLUGIN_LANG_URL ); 
+}
+add_action('plugins_loaded', 'wmf_remobile_translate');
+
 
 // Detection
 if(!is_admin()){
