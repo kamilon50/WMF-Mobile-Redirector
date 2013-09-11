@@ -1,0 +1,20 @@
+.switch{
+	border: none;
+	width: 105px;
+	height: 27px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+}
+.switch1, .switch2, .switch3{
+	background-image: url(../images/switch.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.on, .off{
+	width:50px;
+	height:40px;
+	display:inline-block;
+	cursor:pointer;
+}
