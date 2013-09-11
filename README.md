@@ -1,7 +1,7 @@
 WMF Mobile Redirector
 =====================
 A plugin for creating redirect mobile devices to your mobile site. You can choose mobile or tablet redirection seperated. Also this plugin support back to the desktop site links. If want to use this feature you can change it from Settings > WMF Mobile Redirector page.
-<img src="http://www.webbudesign.com/envato/wmfredirector.png">
+<br><img src="http://www.webbudesign.com/envato/wmfredirector.png">
 
 Installation
 =====================
