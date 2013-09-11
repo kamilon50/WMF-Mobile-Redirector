@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WMF Mobile Redirector\n"
+"POT-Creation-Date: 2013-09-11 12:32+0200\n"
+"PO-Revision-Date: 2013-09-11 12:33+0200\n"
+"Last-Translator: \n"
+"Language-Team: Webbu\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/options-page.php:3
+msgid "WMF Mobile Redirector"
+msgstr ""
+
+#: ../includes/options-page.php:28
+msgid "<h2>WMF Mobile Redirector Options</h2>"
+msgstr ""
+
+#: ../includes/options-page.php:36
+msgid "<h3>Info</h3>"
+msgstr ""
+
+#: ../includes/options-page.php:37
+msgid ""
+"<p>Please write your mobile & tablet web site address like this sample; "
+"<strong>http://m.yoursite.com</strong></p>"
+msgstr ""
+
+#: ../includes/options-page.php:40
+msgid "Mobile Site Address"
+msgstr ""
+
+#: ../includes/options-page.php:42
+msgid "Please enter your mobile web site address"
+msgstr ""
+
+#: ../includes/options-page.php:47
+msgid "Tablet Site Address"
+msgstr ""
+
+#: ../includes/options-page.php:49
+msgid "Please enter your tablet site address"
+msgstr ""
+
+#: ../includes/options-page.php:54
+msgid "Mobile Site Redirection"
+msgstr ""
+
+#: ../includes/options-page.php:57 ../includes/options-page.php:69
+#: ../includes/options-page.php:81
+msgid "On"
+msgstr ""
+
+#: ../includes/options-page.php:58 ../includes/options-page.php:70
+#: ../includes/options-page.php:82
+msgid "Off"
+msgstr ""
+
+#: ../includes/options-page.php:61
+msgid "Enable or disable mobile device redirection."
+msgstr ""
+
+#: ../includes/options-page.php:66
+msgid "Tablet Site Redirection"
+msgstr ""
+
+#: ../includes/options-page.php:73
+msgid "Enable or disable tablet device redirection."
+msgstr ""
+
+#: ../includes/options-page.php:78
+msgid "Backlink"
+msgstr ""
+
+#: ../includes/options-page.php:85
+msgid ""
+"If enable this option you can use back link to desktop site & stop "
+"redirection.<br> Here is the sample back link: "
+msgstr ""
+
+#: ../includes/options-page.php:92
+msgid "Save Changes"
+msgstr ""
