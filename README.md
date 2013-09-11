@@ -5,7 +5,7 @@ A plugin for creating redirect mobile devices to your mobile site. You can choos
 
 Installation
 =====================
-Please install this plugin to your desktop site. Installation is like other plugins. download zip file from Github & upload your plugins. After activate plugin configure Settings > WMF Mobile Redirector option page. After your configuration finish this plugin will redirect mobile & tablet devices to your mobile site.
+Please install this plugin to your desktop site. Installation is like other plugins. Download zip file from Github & upload your plugins. After activate plugin configure is in to the; Settings > WMF Mobile Redirector option page. Finish your configuration and plugin will redirect mobile & tablet devices to your mobile site.
 
 Licence
 =====================
