@@ -7,6 +7,12 @@ Installation
 =====================
 Please install this plugin to your desktop site. Installation is like other plugins. Download zip file from Github & upload your plugins. After activate plugin configure is in to the; Settings > WMF Mobile Redirector option page. Finish your configuration and plugin will redirect mobile & tablet devices to your mobile site.
 
+Resources
+=====================
+<a href="http://mobiledetect.net/" target="_blank">PHP Mobile Detect</a>
+
 Licence
 =====================
 MIT Licenced. Please link back when you use.
+
+
