@@ -11,8 +11,8 @@ Resources
 =====================
 <a href="http://mobiledetect.net/" target="_blank">PHP Mobile Detect</a>
 
-Licence
+License
 =====================
-MIT Licenced. Please link back when you use.
+MIT Licensed. Please link back when you use.
 
 
