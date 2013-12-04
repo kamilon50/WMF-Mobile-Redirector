@@ -3,7 +3,7 @@
 	Plugin Name: WMF Mobile Redirector
 	Plugin URI: http://themeforest.net/user/Webbu
 	Description: A mobile device redirection plugin by Webbu.
-	Version: 1.0.0
+	Version: 1.0.1
 	Author: Webbu
 	Author URI: http://themeforest.net/user/Webbu
 */
@@ -38,10 +38,36 @@ if(!is_admin()){
 		if(isset($options['mobileactive']) == NULL){$mobileactive = "false";}else{$mobileactive = $options['mobileactive'];}
 		if(isset($options['tabletactive']) == NULL){$tabletactive = "false";}else{$tabletactive = $options['tabletactive'];}
 		if(isset($options['backlink']) == NULL){$backlink = "false";}else{$backlink = $options['backlink'];}
+		if(isset($options['onlyhome']) == NULL){$onlyhome = "false";}else{$onlyhome = $options['onlyhome'];}
 
-		if($backlink == "true"){
-			if($_GET["desktop"] != 1){
-				$wmf_mobileredirect = new Mobile_Detect();
+		if($onlyhome == "true"){
+			if(is_front_page() || is_home()){
+				$wmfredirectw = "true";
+			}else{
+				$wmfredirectw = "false";
+			}
+		}else{
+			$wmfredirectw = "true";
+		}
+		
+		$wmf_mobileredirect = new wmf_Mobile_Detect();
+				
+		if($wmfredirectw == 'true'){
+			if($backlink == "true"){
+				if($_GET["desktop"] != 1){
+					
+					$deviceType = ($wmf_mobileredirect->isMobile() ? ($wmf_mobileredirect->isTablet() ? 'tablet' : 'phone') : 'computer');
+					
+					if($mobileactive == "true"){
+						if ($deviceType == "phone" && $mobileactive == true){header('Location: '.$mobilesite.'');}
+					}
+					
+					if($tabletactive == "true"){
+						if ($deviceType == "tablet" && $tabletactive == true){header('Location: '.$tabletsite.'');}
+					}
+					
+				}
+			}else{
 				
 				$deviceType = ($wmf_mobileredirect->isMobile() ? ($wmf_mobileredirect->isTablet() ? 'tablet' : 'phone') : 'computer');
 				
@@ -54,23 +80,10 @@ if(!is_admin()){
 				}
 				
 			}
-		}else{
-			$wmf_mobileredirect = new Mobile_Detect();
-			
-			$deviceType = ($wmf_mobileredirect->isMobile() ? ($wmf_mobileredirect->isTablet() ? 'tablet' : 'phone') : 'computer');
-			
-			if($mobileactive == "true"){
-				if ($deviceType == "phone" && $mobileactive == true){header('Location: '.$mobilesite.'');}
-			}
-			
-			if($tabletactive == "true"){
-				if ($deviceType == "tablet" && $tabletactive == true){header('Location: '.$tabletsite.'');}
-			}
-			
 		}
 	}
 	
-	add_action('init', 'wmf_redirector_action');
+	add_action('wp', 'wmf_redirector_action');
 }
 
 //Enque Styles & Scripts.

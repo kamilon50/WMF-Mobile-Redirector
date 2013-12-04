@@ -32,7 +32,7 @@
  * @version     2.6.9
  */
 
-class Mobile_Detect
+class wmf_Mobile_Detect
 {
     /**
      * Mobile detection type.
