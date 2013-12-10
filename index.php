@@ -3,7 +3,7 @@
 	Plugin Name: WMF Mobile Redirector
 	Plugin URI: http://themeforest.net/user/Webbu
 	Description: A mobile device redirection plugin by Webbu.
-	Version: 1.0.1
+	Version: 1.0.2
 	Author: Webbu
 	Author URI: http://themeforest.net/user/Webbu
 */
